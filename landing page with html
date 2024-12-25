@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" conten="ie=edge">
+        <title>Landing Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link href=""https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="main">
+            <div class="top">
+                <div class="overlay">
+                    <div class="text">
+                        <h1>Images</h1>
+                        <div class="image"></div>
+                        <div class="rtext">
+                            <p>Mesmerizing</p>
+                            <p>Astonishing</p>
+                        </div>
+                        <div class="icons">
+                            <i class="ri-twitter-fill"></i>
+                            <i class="ri-instagram-fill"></i>
+                            <i class="ri-facebook-fill"></i>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="bottom">
+                <div class="b1">
+                    <h1>popular</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit voluptate quia sed deleniti expedita. Provident!</p>
+                </div>
+                <div class="b2">
+                    <div class="up">
+                        <h1>latest</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, maxime reprehenderit.</p>
+                    </div>
+                    <div class="down">
+                        <h1>more...</h1>
+                    </div>
+                </div>
+                <div class="b3">
+                    <div class="overlay">
+                        <p>privacy policies</p>
+                        <p>terms and condition</p>
+                        <p>contact us</p>
+                        <p>about us</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                    
+            
+                
+    </body>
+</html>
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+html, body{
+    width:100%;
+    height:100%;
+}
+#main{
+    width:100%
+    min-height:100vh;
+
+.top{
+    width:100%;
+    min-height: 60vh;
+    background-image: url(https://images.unsplash.com/photo-1562170824-b547dae88b97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80;)
+    background-size : cover;
+    background-position : center;
+}
+.top .overlay{
+    position: relative;
+    width : 100%;
+    min-height: inherit;
+    background-color:rgba(0,0,0,0.295)
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 0 10vh;
+    color: white;
+    bottom:5%;
+}
+.text .image{
+    background-image: url(https://in.images.search.yahoo.com/yhs/view;_ylt=AwrKAWeBplFnZXIS2rUO9olQ;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzU1ZmU0ZmFiMTM2MWE0ZjQzNDA2OTA1YzQ1MTc0N2E4BGdwb3MDNDYEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fyhs%2Fsearch%3Fp%3Dunsplash%2Bimages%26ei%3DUTF-8%26type%3Dfc_ADDA49F0A8D_s58_g_e_d061522_n9998_c999%26fr%3Dyhs-fc-2461%26fr2%3Dsa-gp-search%26hsimp%3Dyhs-2461%26hspart%3Dfc%26param1%3D7%26param2%3DeJwtj8tugzAQRX%252FFy0SKYfwEm1UJ9Q%252B0mzbKwgGHWDwFVFT9%252BtppNZszd%252B4dzbS%252BuRTXtw8CwKnil9N1DL1SKg8YRyCJoDQ09Z8eyM8BKQeiuQLQkhGhrWVMN1YL4e6aOmq1sjLGWjcFtx8DftlAw%252FTj%252B96mIgF02P3YTPuKxg0RSKBAQZC8QN%252BSH5Gd597t7tb5LRUsS5hEh%252B6xDf0J9b5zqHV1Nx1R%252FVimwaWEhQWx0GrvdvH%252FkXju%252BvwxHrC65cmlICIzZ8CsMhUm5NXgklYvmBsmeQnyLJmJ%252FjqaKVCOIcOg3gnX4VfGE5Hnn7%252B46VoK%26tab%3Dorganic%26ri%3D46&w=1080&h=1620&imgurl=images.unsplash.com%2Fphoto-1503919275948-1f118d8ecf0b%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjEyMDd9&rurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fspiritual&size=112KB&p=unsplash+images&oid=55fe4fab1361a4f43406905c451747a8&fr2=sa-gp-search&fr=yhs-fc-2461&tt=100%2B+Spiritual+Pictures+%7C+Download+Free+Images+on+Unsplash&b=0&ni=160&no=46&ts=&tab=organic&sigr=GTXE_dCORiyZ&sigb=Tl2aacjgbROd&sigi=Q4MoS.mHeqhJ&sigt=yVOPSxHSf0Kd&.crumb=ue53Rfgunag&fr=yhs-fc-2461&fr2=sa-gp-search&hsimp=yhs-2461&hspart=fc&type=fc_ADDA49F0A8D_s58_g_e_d061522_n9998_c999&param1=7&param2=eJwtj8tugzAQRX%2FFy0SKYfwEm1UJ9Q%2B0mzbKwgGHWDwFVFT9%2BtppNZszd%2B4dzbS%2BuRTXtw8CwKnil9N1DL1SKg8YRyCJoDQ09Z8eyM8BKQeiuQLQkhGhrWVMN1YL4e6aOmq1sjLGWjcFtx8DftlAw%2FTj%2B96mIgF02P3YTPuKxg0RSKBAQZC8QN%2BSH5Gd597t7tb5LRUsS5hEh%2B6xDf0J9b5zqHV1Nx1R%2FVimwaWEhQWx0GrvdvH%2FkXju%2BvwxHrC65cmlICIzZ8CsMhUm5NXgklYvmBsmeQnyLJmJ%2FjqaKVCOIcOg3gnX4VfGE5Hnn7%2B46VoK)
+    background-size:  cover;
+    background-position: center;
+    height: 300px;
+    width:220px;
+}
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 12px;
+}
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+    width: 30%;
+    min-height: inherit;
+    background-image: url(https://in.images.search.yahoo.com/yhs/view;_ylt=AwrKAWeBplFnZXIS6LUO9olQ;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzZmNzZmNjdlMzQ1MWY1YmMzOWI0OTAxZjI3MzhjOGEzBGdwb3MDNjAEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fyhs%2Fsearch%3Fp%3Dunsplash%2Bimages%26ei%3DUTF-8%26type%3Dfc_ADDA49F0A8D_s58_g_e_d061522_n9998_c999%26fr%3Dyhs-fc-2461%26fr2%3Dsa-gp-search%26hsimp%3Dyhs-2461%26hspart%3Dfc%26param1%3D7%26param2%3DeJwtj8tugzAQRX%252FFy0SKYfwEm1UJ9Q%252B0mzbKwgGHWDwFVFT9%252BtppNZszd%252B4dzbS%252BuRTXtw8CwKnil9N1DL1SKg8YRyCJoDQ09Z8eyM8BKQeiuQLQkhGhrWVMN1YL4e6aOmq1sjLGWjcFtx8DftlAw%252FTj%252B96mIgF02P3YTPuKxg0RSKBAQZC8QN%252BSH5Gd597t7tb5LRUsS5hEh%252B6xDf0J9b5zqHV1Nx1R%252FVimwaWEhQWx0GrvdvH%252FkXju%252BvwxHrC65cmlICIzZ8CsMhUm5NXgklYvmBsmeQnyLJmJ%252FjqaKVCOIcOg3gnX4VfGE5Hnn7%252B46VoK%26tab%3Dorganic%26ri%3D60&w=1080&h=1618&imgurl=images.unsplash.com%2Fphoto-1541963463532-d68292c34b19%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax&rurl=https%3A%2F%2Funsplash.com%2Fimages%2Fthings%2Fbook&size=296KB&p=unsplash+images&oid=6f76f67e3451f5bc39b4901f2738c8a3&fr2=sa-gp-search&fr=yhs-fc-2461&tt=Book+Pictures+%5BHQ%5D+%7C+Download+Free+Images+on+Unsplash&b=0&ni=160&no=60&ts=&tab=organic&sigr=tYsdK1C3AvE5&sigb=j6oyYROSPX5Q&sigi=3qUmRj4MmJ1B&sigt=g3GTY9SYl.3a&.crumb=ue53Rfgunag&fr=yhs-fc-2461&fr2=sa-gp-search&hsimp=yhs-2461&hspart=fc&type=fc_ADDA49F0A8D_s58_g_e_d061522_n9998_c999&param1=7&param2=eJwtj8tugzAQRX%2FFy0SKYfwEm1UJ9Q%2B0mzbKwgGHWDwFVFT9%2BtppNZszd%2B4dzbS%2BuRTXtw8CwKnil9N1DL1SKg8YRyCJoDQ09Z8eyM8BKQeiuQLQkhGhrWVMN1YL4e6aOmq1sjLGWjcFtx8DftlAw%2FTj%2B96mIgF02P3YTPuKxg0RSKBAQZC8QN%2BSH5Gd597t7tb5LRUsS5hEh%2B6xDf0J9b5zqHV1Nx1R%2FVimwaWEhQWx0GrvdvH%2FkXju%2BvwxHrC65cmlICIzZ8CsMhUm5NXgklYvmBsmeQnyLJmJ%2FjqaKVCOIcOg3gnX4VfGE5Hnn7%2B46VoK);
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+.b1 p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b2{
+    width:30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image:url(http://images.unsplash.com/photo-1559628129-67cf63b72248?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9) ;
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 .up p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://in.images.search.yahoo.com/yhs/view;_ylt=AwrPpQxJp1FncRkSt8gO9olQ;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzcwMjljZWY3MTgxNzZlMmU0NDc2NmY3Nzc4ODQyZjMyBGdwb3MDMTE0BGl0A2Jpbmc-?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fyhs%2Fsearch%3Fp%3Dunsplash%2Bimages%26ei%3DUTF-8%26type%3Dfc_ADDA49F0A8D_s58_g_e_d061522_n9998_c999%26fr%3Dyhs-fc-2461%26fr2%3Dsa-gp-search%26hsimp%3Dyhs-2461%26hspart%3Dfc%26param1%3D7%26param2%3DeJwtj8tugzAQRX%252FFy0SKYfwEm1UJ9Q%252B0mzbKwgGHWDwFVFT9%252BtppNZszd%252B4dzbS%252BuRTXtw8CwKnil9N1DL1SKg8YRyCJoDQ09Z8eyM8BKQeiuQLQkhGhrWVMN1YL4e6aOmq1sjLGWjcFtx8DftlAw%252FTj%252B96mIgF02P3YTPuKxg0RSKBAQZC8QN%252BSH5Gd597t7tb5LRUsS5hEh%252B6xDf0J9b5zqHV1Nx1R%252FVimwaWEhQWx0GrvdvH%252FkXju%252BvwxHrC65cmlICIzZ8CsMhUm5NXgklYvmBsmeQnyLJmJ%252FjqaKVCOIcOg3gnX4VfGE5Hnn7%252B46VoK%26nost%3D1%26tab%3Dorganic%26ri%3D114&w=1080&h=1920&imgurl=images.unsplash.com%2Fphoto-1519664824562-b4bc73f9795a%3Fixlib%3Drb-1.2.1%26q%3D80%26fm%3Djpg%26crop%3Dentropy%26cs%3Dtinysrgb%26w%3D1080%26fit%3Dmax%26ixid%3DeyJhcHBfaWQiOjEyMDd9&rurl=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fwildlife&size=381KB&p=unsplash+images&oid=7029cef718176e2e44766f7778842f32&fr2=sa-gp-search&fr=yhs-fc-2461&tt=100%2B+Wildlife+Pictures+%7C+Download+Free+Images+on+Unsplash&b=61&ni=160&no=114&ts=&tab=organic&sigr=VXNK.n3jecJN&sigb=fiJVxajOp0ib&sigi=Xl6D9qEGprvl&sigt=vhTeCf7Xncok&.crumb=ue53Rfgunag&fr=yhs-fc-2461&fr2=sa-gp-search&hsimp=yhs-2461&hspart=fc&type=fc_ADDA49F0A8D_s58_g_e_d061522_n9998_c999&param1=7&param2=eJwtj8tugzAQRX%2FFy0SKYfwEm1UJ9Q%2B0mzbKwgGHWDwFVFT9%2BtppNZszd%2B4dzbS%2BuRTXtw8CwKnil9N1DL1SKg8YRyCJoDQ09Z8eyM8BKQeiuQLQkhGhrWVMN1YL4e6aOmq1sjLGWjcFtx8DftlAw%2FTj%2B96mIgF02P3YTPuKxg0RSKBAQZC8QN%2BSH5Gd597t7tb5LRUsS5hEh%2B6xDf0J9b5zqHV1Nx1R%2FVimwaWEhQWx0GrvdvH%2FkXju%2BvwxHrC65cmlICIzZ8CsMhUm5NXgklYvmBsmeQnyLJmJ%2FjqaKVCOIcOg3gnX4VfGE5Hnn7%2B46VoK);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .down .overlay{
+    position:relative;
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgba(255, 255, 255, 0.344);
+}
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(http://images.unsplash.com/photo-1501704163333-86d3832cd4ea?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9rl();
+    background-size: cover;
+    background-position: center;
+}
+.b3 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 4vw 3vh;
+}
+.b3 .overlay p{
+    padding: 1.2vh;
+}
+@media(max-width:700px);{
+    .rtext{
+        flex-direction: column;
+    }
+    .b3 .overlay{
+        width:100%;
+        margin-left: initial;
+    }
+
+}
+@media(max-width:500px){
+    .text{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .text h1{
+        font-size: 5vh;
+    }
+    .text .image{
+        height: 200px;
+        width: 140px;
+        margin-top: 20px;
+    }
+    .rtext{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .rtext p{
+        margin-top: 10px;
+    }
+    .icons{
+        margin-top: 10px;
+    }
+    .bottom{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .b1{
+        width:100%;
+    }
+    .b2{
+        width:100%;
+    }
+    .b2 .up{
+        min-height: 30vh;
+    }
+    .b3{
+        width: 100%;
+        min-height: 30vh;
+        background-position: left;
+    }
+
+}
